@@ -296,9 +296,17 @@ void showImg()
 
 }
 
+void showImgPartB();
+void showImgMall();
+void readFromeSrc();
+
 int main()
 {
-	showImg();
+	//showImg();
+	//showImgPartB();
+	//showImgMall();
+
+	readFromeSrc();
 	return 0;
 
 	ifstream fin("IMG_2.csv"); //打开文件流操作
